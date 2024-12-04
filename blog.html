@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Explora Lo Nuestro</title>
+
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/blog.css">
+
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+</head>
+<body>
+
+    <!--Header - menu-->
+    <header>
+
+        <div class="header-content">
+
+            <div class="logo">
+                <h1>Explora<b> Lo Nuestro</b></h1>
+            </div>
+
+            <div class="menu" id="show-menu">
+
+                <nav>
+                    <ul>
+                        <li><a href="#"> <i class="fas fa-home"></i> Inicio</a></li>
+                        <li><a href="#"> <i class="fab fa-youtube"> </i>Recorridos</a></li>
+                        <li class="menu-selected"><a href="blog.html" class="text-menu-selected"> 
+                            <i class="fas fa-file-alt"></i>Blog</a></li>
+                        <li><a href="#"> <i class="fas fa-headset"></i> Contacto</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+
+            <div id="ctn-icon-search">
+                <i class="fas fa-search" id="icon-search"></i>
+            </div>
+
+        </div>
+
+        <div id="icon-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+
+    </header>
+
+
+    <div id="ctn-bars-search">
+        <input type="text" id="inputSearch" placeholder="¿Qué deseas buscar?">
+    </div>
+
+    <ul id="box-search">
+        <li><a href="Plaza.html"><i class="fas fa-search"></i>Plaza de armas</a></li>
+        <li><a href="Plaza.html"><i class="fas fa-search"></i>armas</a></li>
+
+    </ul>
+
+    <div id="cover-ctn-search"></div>
+
+
+    <!--Portada-->
+
+    <div class="container-all" id="move-content">
+
+    
+    <div class="blog-container-cover">
+        <div class="container-info-cover">
+            <h1>¡Explora Gomez Palacio!</h1>
+            <p>Explora con nosotros los rincones que hacen de nuestra ciudad un lugar único y lleno de encanto.</p>
+        </div>
+    </div>
+
+    <div class="container-post">
+
+        <input type="radio" id="TODOS" name="categories" value="TODOS" checked>
+        <input type="radio" id="PARQUES" name="categories" value="PARQUES">
+        <input type="radio" id="MERCADO" name="categories" value="MERCADO">
+        <input type="radio" id="TURISMO" name="categories" value="TURISMO">
+        <input type="radio" id="FERIA" name="categories" value="FERIA">
+        <input type="radio" id="IGLESIAS" name="categories" value="IGLESIAS">
+        <input type="radio" id="EMBLEMATICO" name="categories" value="EMBLEMATICO">
+        <input type="radio" id="HISTORIA" name="categories" value="HISTORIA">
+        <div class="container-category">
+            <label for="TODOS">TODOS</label>
+            <label for="PARQUES">PARQUES</label>
+            <label for="MERCADO">MERCADO</label>
+            <label for="TURISMO">TURISMO</label>
+            <label for="FERIA">FERIA</label>
+            <label for="IGLESIAS">IGLESIAS</label>
+            <label for="EMBLEMATICO">EMBLEMATICO</label>
+            <label for="HISTORIA">HISTORIA</label>
+        </div>
+
+        <div class="posts">
+
+            <div class="post" data-category="PARQUES">
+
+                <div class="ctn-img">
+                    <img src="img/articulos/PlazaArmas.jpg" alt="">
+                </div>
+                <h2>Conoce La Plaza de Armas Gomez Palacio</h2>
+                <span>26 octubre 2024 - 10:56 pm</span>
+                <ul class="ctn-tag">
+                    <li>PARQUES</li>
+                </ul>
+                <a href="Plaza.html"><button>Leer más</button></a>
+
+            </div>
+
+            <div class="post" data-category="IGLESIAS">
+
+                <div class="ctn-img"><img src="img/articulos/sagradocorazon.jpg" alt=""></div>
+                <h2>Parroquia Sagrado Corazón de Jesus - Gomez Palacio</h2>
+                <span>19 septiembre 2024 - 9:46 am</span>
+                <ul class="ctn-tag">
+                    <li>IGLESIAS</li>
+                    <li>EMBLEMATICO</li>
+                </ul>
+                <a href="Sagr_Cor.html  "><button>leer más</button></a>
+
+            </div>
+
+            <div class="post" data-category="PARQUES">
+
+                <div class="ctn-img"><img src="img/articulos/esperanza.jpeg" alt=""></div>
+                <h2>Parque La Esperanza - Gomez Palacio</h2>
+                <span>26 octubre 2024 - 9:46 am</span>
+                <ul class="ctn-tag">
+                    <li>PARQUES</li>
+                </ul>
+                <a href="espe.html"><button>leer más</button></a>
+
+            </div>
+
+            <div class="post" data-category="MERCADO EMBLEMATICO">
+
+                <div class="ctn-img"><img src="img/articulos/MERCA.jpg" alt=""></div>
+                <h2>Mercado José Ramón Valdez, 104 años de historia en Gómez Palacio</h2>
+                <span>31 octubre 2024 - 1:32 am</span>
+                <ul class="ctn-tag">
+                    <li>MERCADO</li>
+                    <li>EMBLEMATICO</li>
+                </ul>
+                <a href="merc.html"><button>leer más</button></a>
+
+            </div>
+
+            <div class="post" data-category="IGLESIAS">
+
+                <div class="ctn-img"><img src="img/articulos/iglesia.jpg" alt=""></div>
+                <h2>Catedral y Basílica Menor de Guadalupe - Gomez Palacio</h2>
+                <span>05 septiembre - 3:40 pm</span>
+                <ul class="ctn-tag">
+                    <li>IGLESIAS</li>
+                    <li>EMBLEMATICO</li>
+                </ul>
+                <a href="#"><button>leer más</button></a>
+
+            </div>
+
+            <div class="post" data-category="HISTORIA EMBLEMATICO TURISMO">
+
+                <div class="ctn-img"><img src="img/articulos/recinto.jpg" alt=""></div>
+                <h2>Recinto de la Revolución Gomez Palacio </h2>
+                <span>26 septiembre 2024 - 1:22 pm</span>
+                <ul class="ctn-tag">
+                    <li>EMBLEMATICO</li>
+                    <li>HISTORIA</li>
+                    <li>TURISMO</li>
+                </ul>
+                <a href="recinto.html"><button>leer más</button></a>
+
+            </div>
+
+            <div class="post" data-category="TURISMO HISTORIA">
+
+                <div class="ctn-img"><img src="img/articulos/PILA.png" alt=""></div>
+                <h2>Mirador y monumento “Cerro de la Pila”</h2>
+                <span>12 noviembre 2024 - 3:56 pm </span>
+                <ul class="ctn-tag">
+                    <li>TURISMO</li>
+                    <li>HISTORIA</li>
+                </ul>
+                <a href="#"><button>leer más</button></a>
+
+            </div>
+
+            <div class="post" data-category="TURISMO">
+
+                <div class="ctn-img"><img src="img/articulos/torre.jpeg" alt=""></div>
+                <h2>Replica Torre Eiffel - Gomez Palacio </h2>
+                <span> 27 octubre - 6:45 pm </span>
+                <ul class="ctn-tag">
+                    <li>TURISMO</li>
+                </ul>
+                <a href="#"><button>leer más</button></a>
+
+            </div>
+
+            <div class="post" data-category="PARQUES">
+
+                <div class="ctn-img"><img src="img/articulos/morelos.jpeg" alt=""></div>
+                <h2>Parque Morelos - Gomez Palacio</h2>
+                <span>12 noviembre 2024 - 3:56 pm </span>
+                <ul class="ctn-tag">
+                    <li>PARQUES</li>
+                </ul>
+                <a href="#"><button>leer más</button></a>
+
+            </div>
+
+            <div class="post" data-category="HISTORIA">
+
+                <div class="ctn-img"><img src="img/articulos/barrio.jpg" alt=""></div>
+                <h2>Barrio de las Banquetas Altas - Gomez Palacio</h2>
+                <span>12 septiembre 2024 - 4:40 pm </span>
+                <ul class="ctn-tag">
+                    <li>HISTORIA</li>
+                </ul>
+                <a href="barrio.html"><button>leer más</button></a>
+
+            </div>
+
+            <div class="post" data-category="HISTORIA">
+
+                <div class="ctn-img"><img src="img/articulos/cafetera.jpg" alt=""></div>
+                <h2>"La Cafetera Olvidada" - Gomez Palacio</h2>
+                <span>30 septiembre 2024 - 3:57 pm </span>
+                <ul class="ctn-tag">
+                    <li>HISTORIA</li>
+                </ul>
+                <a href="#"><button>leer más</button></a>
+
+            </div>
+
+
+
+            
+
+        </div>
+
+    </div>
+
+    <!--Boton de ir hacia arriba-->
+    <div id="button-up">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+
+
+
+    <div class="container-footer">	
+
+        <footer>
+            <div class="logo-footer">
+                <img src="img/logoGP.png" alt="">
+            </div>
+            <div class="logo-footer">
+                <img src="img/LogoUPG.png" alt="">
+            </div>
+            <div class="redes-footer">
+                <a href="#"><i class="fab fa-facebook-f icon-redes-footer"></i></a>
+                <a href="#"><i class="fab fa-google-plus-g icon-redes-footer"></i></a>
+                <a href="#"><i class="fab fa-instagram icon-redes-footer"></i></a>
+            </div>
+
+            <hr>
+            <h4>© 2024 Fernando Martinez - UPGOP - Instituto Municipal de la Juventud Gomez Palacio - 
+                Proyecto estancias - Todos los Derechos Reservados</h4>
+
+        </footer>
+
+    </div>
+
+</div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
